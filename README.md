@@ -1,2 +1,2 @@
-# bootstrapTut1
-Pages for the Bootstrap 1 tutorial
+# bootstrapTut2
+Pages for the Bootstrap 2 tutorial
