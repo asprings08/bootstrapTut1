@@ -1,0 +1,255 @@
+@charset "UTF-8";
+
+body {
+  font-family:'IBM Plex Sans', sans-serif; /*The question is, do I need to add multiple fonts here? Is IBM plex sans not supported on other OS? Prof had three different fonts listed here before I deleted them */
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5;
+  font-weight: normal;
+  background: #fafafa;
+  color: #6c757d;
+}
+
+html {
+      scroll-behavior: smooth
+    }
+
+.nav-link {
+  font-family:'Noto Serif', serif;
+}
+
+.navbar-brand {
+    padding-left : 1rem;
+  }
+
+  #navbarNav {
+    color : black;
+    padding-left: 60rem;
+  }
+
+  .logo {
+    text-align: center;
+    width: 3rem;
+    height : 3rem;
+  }
+
+  .navbar .navbar-expand-lg .navbar-light {
+    font-family: 'Noto Serif', serif;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem; }
+
+  @media (max-width: 575.98px) {
+    header {
+      margin : 2rem 0rem;
+      padding : 0rem 4rem;
+    }
+    section {
+      margin : 2rem 0rem;
+      padding : 0rem 2rem;
+    }
+
+    footer{
+      padding: 1rem 4rem;
+      margin-top: 1rem;
+    }
+  }
+
+  @media (min-width: 576px) {
+    header {
+      margin: 5rem;
+    }
+    main {
+      margin: 5rem;
+    }
+    footer{
+      padding: 1rem 6rem;;
+    }
+  }
+
+  @media (min-width: 961px) {
+    header {
+      margin: 6rem;
+    }
+    .nav-item:hover {
+      color: #BF4E30;
+      font-weight: 700;
+    }
+    .projectBlurb {
+      padding : 2rem;
+    }
+    footer{
+      padding: 1rem 10rem;;
+    }
+  }
+
+footer {
+  background-color: #033335;
+  color: white;
+}
+
+
+.contactFooter {
+  color: #74CFBE;
+}
+
+#whyThough {
+  text-decoration: underline;
+  color: #74CFBE;
+}
+
+#contactSection {
+  padding-top : 1rem;
+  padding-bottom: 1rem;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+  }
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none; }
+
+a {
+  color: black;
+}
+
+h5 {
+  font-family: 'Noto Serif', serif;
+}
+
+  h1, h2, h3, h4, h5
+  .h1, .h2, .h3, .h4, .h5 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: 'Noto Serif', serif;
+  }
+
+  pre {
+    display: inline;
+    font-family: 'IBM Plex Sans', sans-serif;
+    white-space: pre-line;
+    margin: 1em 0;
+    text-align: left;
+    font-size: 100%;
+  }
+
+  .textHierarchy {
+    padding-bottom: 1rem;
+  }
+
+  .logoRow {
+    padding-bottom: 1.5rem;
+  }
+
+  .card {
+    width: 18rem;
+  }
+
+  #categoryTitle {
+    color : #4f4f4f;
+  }
+
+  .projectCard {
+    border: 1px solid #bcbcbc;
+    padding-top : 2rem;
+    margin-top : 2rem;
+    margin-bottom : 2rem;
+    border-radius: 0.375rem;
+  }
+
+
+
+  .problemRole {
+    margin-bottom : 2rem;
+  }
+
+  #boldText {
+    font-weight: 700;
+  }
+
+  #linkText {
+    text-decoration: underline;
+  }
+
+  #seafoam {
+    color: #74CFBE;
+  }
+
+  #kelp {
+    background-color: #033335;
+  }
+  #clownfish {
+    color: #BF4E30;
+  }
+  #seaUrchin {
+    background-color: #DCCDE8;
+  }
+  #abyss {
+    background-color: #000000;
+  }
+
+  #whitecap {
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+  }
+
+  h1, h2, h3, h4, h5,
+  .h1, .h2, .h3, .h4, .h5 {
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+  .list-unstyled {
+    padding-left: 0;
+    list-style: none; }
+
+
+  .toggle-btn {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    color: #fff;
+   }
+
+   #nav-icon1 span{
+    display: block;
+    margin:2px;
+    height: 3px;
+    width:20px;
+    background: #fff;
+    border-radius: 2px;
+  }
